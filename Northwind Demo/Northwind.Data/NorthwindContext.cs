@@ -20,6 +20,7 @@ namespace Northwind.Data
         public DbSet<Product> Products{ get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Territory> Territories{ get; set; }
 
         //overide base class method that does the details of mapping entities to the database
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
